@@ -1,0 +1,120 @@
+/usr/local/bin/python3.6 /Users/lisa/Downloads/DBNeast/experiment.py
+--------------------
+Training the 1 st rbm layer
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/torch/nn/functional.py:1006: UserWarning: nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.
+  warnings.warn("nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.")
+Epoch Error(epoch:0) : 3208.1982
+Epoch Error(epoch:1) : 3210.1091
+Epoch Error(epoch:2) : 3204.0647
+Epoch Error(epoch:3) : 3201.0793
+Epoch Error(epoch:4) : 3185.8430
+Epoch Error(epoch:5) : 3175.2241
+Epoch Error(epoch:6) : 3185.3403
+Epoch Error(epoch:7) : 3186.9666
+Epoch Error(epoch:8) : 3182.8940
+Epoch Error(epoch:9) : 3191.0847
+Epoch Error(epoch:10) : 3189.0081
+Epoch Error(epoch:11) : 3195.7458
+Epoch Error(epoch:12) : 3194.8501
+Epoch Error(epoch:13) : 3203.6924
+Epoch Error(epoch:14) : 3206.1562
+Epoch Error(epoch:15) : 3212.8342
+Epoch Error(epoch:16) : 3213.2798
+Epoch Error(epoch:17) : 3217.3794
+Epoch Error(epoch:18) : 3224.0999
+Epoch Error(epoch:19) : 3227.3313
+Epoch:  0 step: 0 | train loss: 1.2902
+Epoch:  0 step: 10 | train loss: 1.3625
+Epoch:  0 step: 20 | train loss: 1.1859
+Epoch:  0 step: 30 | train loss: 1.1580
+Epoch:  1 step: 0 | train loss: 1.1506
+Epoch:  1 step: 10 | train loss: 1.0996
+Epoch:  1 step: 20 | train loss: 1.0900
+Epoch:  1 step: 30 | train loss: 1.0753
+Epoch:  2 step: 0 | train loss: 1.1065
+Epoch:  2 step: 10 | train loss: 1.1197
+Epoch:  2 step: 20 | train loss: 1.0845
+Epoch:  2 step: 30 | train loss: 1.1606
+Epoch:  3 step: 0 | train loss: 1.0401
+Epoch:  3 step: 10 | train loss: 1.0711
+Epoch:  3 step: 20 | train loss: 1.0619
+Epoch:  3 step: 30 | train loss: 1.0574
+Epoch:  4 step: 0 | train loss: 1.0025
+Epoch:  4 step: 10 | train loss: 1.0023
+Epoch:  4 step: 20 | train loss: 1.0429
+Epoch:  4 step: 30 | train loss: 1.0972
+Epoch:  5 step: 0 | train loss: 1.0222
+Epoch:  5 step: 10 | train loss: 1.1543
+Epoch:  5 step: 20 | train loss: 1.0408
+Epoch:  5 step: 30 | train loss: 0.9709
+Epoch:  6 step: 0 | train loss: 1.1020
+Epoch:  6 step: 10 | train loss: 1.1102
+Epoch:  6 step: 20 | train loss: 1.0050
+Epoch:  6 step: 30 | train loss: 1.0073
+Epoch:  7 step: 0 | train loss: 1.0130
+Epoch:  7 step: 10 | train loss: 1.0551
+Epoch:  7 step: 20 | train loss: 1.0964
+Epoch:  7 step: 30 | train loss: 0.9819
+Epoch:  8 step: 0 | train loss: 0.9398
+Epoch:  8 step: 10 | train loss: 1.1176
+Epoch:  8 step: 20 | train loss: 1.0601
+Epoch:  8 step: 30 | train loss: 1.0167
+Epoch:  9 step: 0 | train loss: 0.9792
+Epoch:  9 step: 10 | train loss: 1.2663
+Epoch:  9 step: 20 | train loss: 1.0174
+Epoch:  9 step: 30 | train loss: 1.0517
+Epoch:  10 step: 0 | train loss: 0.9460
+Epoch:  10 step: 10 | train loss: 1.0576
+Epoch:  10 step: 20 | train loss: 1.0819
+Epoch:  10 step: 30 | train loss: 0.9821
+Epoch:  11 step: 0 | train loss: 0.9650
+Epoch:  11 step: 10 | train loss: 0.9827
+Epoch:  11 step: 20 | train loss: 1.0868
+Epoch:  11 step: 30 | train loss: 0.9999
+Epoch:  12 step: 0 | train loss: 1.0819
+Epoch:  12 step: 10 | train loss: 1.0863
+Epoch:  12 step: 20 | train loss: 0.8738
+Epoch:  12 step: 30 | train loss: 0.9981
+Epoch:  13 step: 0 | train loss: 1.0210
+Epoch:  13 step: 10 | train loss: 1.0423
+Epoch:  13 step: 20 | train loss: 1.0560
+Epoch:  13 step: 30 | train loss: 1.0576
+Epoch:  14 step: 0 | train loss: 0.9270
+Epoch:  14 step: 10 | train loss: 1.1103
+Epoch:  14 step: 20 | train loss: 1.1168
+Epoch:  14 step: 30 | train loss: 0.8861
+Epoch:  15 step: 0 | train loss: 0.9602
+Epoch:  15 step: 10 | train loss: 1.1551
+Epoch:  15 step: 20 | train loss: 1.0270
+Epoch:  15 step: 30 | train loss: 1.2251
+Epoch:  16 step: 0 | train loss: 1.0549
+Epoch:  16 step: 10 | train loss: 1.1415
+Epoch:  16 step: 20 | train loss: 0.9424
+Epoch:  16 step: 30 | train loss: 1.0748
+Epoch:  17 step: 0 | train loss: 0.8441
+Epoch:  17 step: 10 | train loss: 1.1372
+Epoch:  17 step: 20 | train loss: 1.0615
+Epoch:  17 step: 30 | train loss: 0.9979
+Epoch:  18 step: 0 | train loss: 1.1942
+Epoch:  18 step: 10 | train loss: 1.0093
+Epoch:  18 step: 20 | train loss: 0.9887
+Epoch:  18 step: 30 | train loss: 1.0741
+Epoch:  19 step: 0 | train loss: 1.0257
+Epoch:  19 step: 10 | train loss: 1.0639
+Epoch:  19 step: 20 | train loss: 1.1174
+Epoch:  19 step: 30 | train loss: 1.1504
+prediciton: [2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+ 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+ 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+ 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+ 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+ 2 2 2 2 2 2 2 2 2]
+true value: [1 1 2 2 0 2 0 2 1 2 2 2 2 0 2 2 2 1 2 1 2 1 2 1 0 0 1 2 2 0 1 1 2 2 2 0 0
+ 0 1 2 2 1 1 2 1 2 0 0 1 2 0 0 2 0 1 0 0 1 0 2 0 2 2 2 1 0 1 1 2 2 2 2 2 2
+ 1 0 1 0 0 2 0 2 2 1 2 1 2 2 2 1 2 2 1 2 1 2 2 2 0 0 1 2 0 2 2 2 0 2 0 2 0
+ 2 1 0 2 2 2 0 1 2 2 2 0 2 1 2 2 2 0 1 2 1 0 1 2 1 0 1 1 1 2 0 1 2 2 1 2 2
+ 1 0 2 2 2 1 1 0 2 2 2 1 2 1 2 1 0 0 0 1 2 0 2 1 1 2 2 2 0 1 1 1 0 2 0 1 2
+ 0 1 2 2 2 0 2 2 1]
+test accuracy: 0.47 duration:20.0941
+
+Process finished with exit code 0

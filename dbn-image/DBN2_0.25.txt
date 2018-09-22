@@ -1,0 +1,40 @@
+/usr/local/bin/python3.6 /Users/lisa/Downloads/DBNeast/experiment.py
+--------------------
+Training the 1 st rbm layer
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/torch/nn/functional.py:1006: UserWarning: nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.
+  warnings.warn("nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.")
+Epoch Error(epoch:0) : 3736.4158
+Epoch Error(epoch:1) : 3677.4512
+Epoch Error(epoch:2) : 3632.6440
+Epoch Error(epoch:3) : 3586.8062
+Epoch Error(epoch:4) : 3536.9924
+Epoch Error(epoch:5) : 3500.9529
+Epoch Error(epoch:6) : 3476.5730
+Epoch Error(epoch:7) : 3458.7124
+Epoch Error(epoch:8) : 3428.8281
+Epoch Error(epoch:9) : 3398.8628
+Epoch Error(epoch:10) : 3373.1626
+Epoch Error(epoch:11) : 3364.9600
+Epoch Error(epoch:12) : 3345.8645
+Epoch Error(epoch:13) : 3334.1169
+Epoch Error(epoch:14) : 3321.4976
+Epoch Error(epoch:15) : 3307.5396
+Epoch Error(epoch:16) : 3291.3909
+Epoch Error(epoch:17) : 3284.2334
+Epoch Error(epoch:18) : 3277.8052
+Epoch Error(epoch:19) : 3262.9309
+prediciton: [1 1 1 1 1 1 2 1 1 1 0 1 1 2 1 0 1 1 1 1 1 1 1 1 1 1 1 2 1 1 2 1 1 0 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 2 0 1 1 1 1 1 0 1 1 1 2 2 1 1 1 1 1 2 1 2 1 1 1
+ 1 1 0 1 1 1 0 2 1 1 1 1 1 1 1 1 2 1 1 1 1 1 2 1 1 1 1 1 1 1 2 1 1 1 1 2 0
+ 1 1 2 2 1 1 1 1 1 2 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 0 1 1 2 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 0 1 1 1 1 0 2 2 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1
+ 1 0 1 1 1 1 1 0 1]
+true value: [2 2 2 2 2 0 2 2 0 2 1 2 0 0 2 1 1 0 2 1 1 2 0 1 1 2 2 2 0 1 2 2 0 2 2 2 1
+ 0 0 2 2 2 1 1 2 0 2 2 1 0 2 2 0 0 2 2 1 2 2 1 1 2 1 1 0 0 0 0 1 2 1 1 1 2
+ 2 2 1 2 2 0 1 1 2 1 2 2 0 2 2 0 0 1 2 2 2 0 1 0 1 2 2 1 1 1 1 1 1 2 1 0 2
+ 2 2 2 0 2 0 2 2 1 2 1 0 0 1 2 1 0 2 2 0 2 2 2 1 1 0 0 1 2 2 2 2 1 2 2 2 2
+ 0 0 2 1 0 1 0 2 2 2 2 2 0 1 2 2 2 0 2 0 1 0 2 2 0 2 2 2 2 2 2 0 2 2 2 2 0
+ 2 0 2 2 2 2 0 2 2]
+test accuracy: 0.25 duration:16.7622
+
+Process finished with exit code 0

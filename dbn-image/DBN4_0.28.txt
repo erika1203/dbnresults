@@ -1,0 +1,44 @@
+/usr/local/bin/python3.6 /Users/lisa/Downloads/DBNeast/experiment.py
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/torch/nn/functional.py:1006: UserWarning: nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.
+  warnings.warn("nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.")
+--------------------
+Training the 1 st rbm layer
+Epoch Error(epoch:0) : 3374.0801
+Epoch Error(epoch:1) : 3335.5808
+Epoch Error(epoch:2) : 3310.8298
+Epoch Error(epoch:3) : 3296.9072
+Epoch Error(epoch:4) : 3270.2849
+Epoch Error(epoch:5) : 3248.8464
+Epoch Error(epoch:6) : 3245.0334
+Epoch Error(epoch:7) : 3227.7505
+Epoch Error(epoch:8) : 3211.1069
+Epoch Error(epoch:9) : 3203.9915
+Epoch Error(epoch:10) : 3188.6328
+Epoch Error(epoch:11) : 3184.7578
+Epoch Error(epoch:12) : 3176.8271
+Epoch Error(epoch:13) : 3171.7412
+Epoch Error(epoch:14) : 3161.1355
+Epoch Error(epoch:15) : 3159.2256
+Epoch Error(epoch:16) : 3153.5605
+Epoch Error(epoch:17) : 3149.1702
+Epoch Error(epoch:18) : 3143.0005
+Epoch Error(epoch:19) : 3144.0618
+Epoch:  0 step: 0 | train loss: 1.2635
+Epoch:  0 step: 10 | train loss: 1.1345
+Epoch:  0 step: 20 | train loss: 1.2323
+Epoch:  0 step: 30 | train loss: 1.0539
+prediciton: [2 1 0 1 0 1 2 2 0 2 1 0 1 1 1 0 1 0 1 2 2 1 1 1 1 0 1 1 0 1 0 2 0 1 1 0 1
+ 1 1 1 2 1 2 1 0 1 1 0 1 0 0 1 1 2 1 1 2 2 0 0 1 1 2 1 1 2 1 1 0 0 1 2 1 0
+ 2 2 1 1 0 1 1 0 1 1 0 1 1 0 1 0 0 1 1 1 1 1 1 1 0 1 1 2 1 1 0 1 0 2 0 0 1
+ 1 0 1 1 1 1 1 1 1 0 1 2 1 1 1 0 1 1 1 1 2 1 2 2 0 1 0 1 0 1 0 1 2 1 1 2 2
+ 0 1 1 0 2 1 1 1 0 1 0 2 0 0 2 1 0 1 1 0 1 2 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1
+ 1 2 2 1 1 2 1 1 2]
+true value: [0 0 1 0 2 2 1 0 0 1 0 1 2 1 2 2 2 2 2 2 0 2 2 2 0 1 2 2 1 0 2 2 2 2 1 0 1
+ 2 0 0 2 0 1 1 2 0 0 2 2 2 2 2 2 2 1 2 1 1 1 2 2 1 2 2 0 0 0 1 2 1 1 2 1 1
+ 2 2 1 0 0 2 0 2 2 1 2 2 2 2 2 2 2 2 0 1 1 0 2 2 1 0 2 2 2 0 2 1 2 0 2 2 1
+ 1 0 1 2 2 0 0 2 1 2 2 1 1 2 0 2 0 2 2 1 2 0 2 1 1 2 0 1 0 2 0 1 2 2 2 2 1
+ 0 1 2 2 1 0 2 1 1 2 2 1 2 0 2 1 1 1 2 2 2 2 2 2 2 0 0 1 2 0 2 1 0 2 1 2 1
+ 2 2 0 2 2 1 1 0 1]
+test accuracy: 0.28 duration:20.8678
+
+Process finished with exit code 0

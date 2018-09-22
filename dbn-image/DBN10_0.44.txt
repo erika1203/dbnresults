@@ -1,0 +1,142 @@
+/usr/local/bin/python3.6 /Users/lisa/Downloads/DBNeast/experiment.py
+--------------------
+Training the 1 st rbm layer
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/torch/nn/functional.py:1006: UserWarning: nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.
+  warnings.warn("nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.")
+Epoch Error(epoch:0) : 3267.8193
+Epoch Error(epoch:1) : 2942.2278
+Epoch Error(epoch:2) : 2703.1394
+Epoch Error(epoch:3) : 2526.1294
+Epoch Error(epoch:4) : 2357.4316
+Epoch Error(epoch:5) : 2233.3564
+Epoch Error(epoch:6) : 2088.4622
+Epoch Error(epoch:7) : 2007.7565
+Epoch Error(epoch:8) : 1899.8228
+Epoch Error(epoch:9) : 1823.2474
+Epoch Error(epoch:10) : 1732.8430
+Epoch Error(epoch:11) : 1667.1346
+Epoch Error(epoch:12) : 1612.4631
+Epoch Error(epoch:13) : 1545.3193
+Epoch Error(epoch:14) : 1460.3871
+Epoch Error(epoch:15) : 1428.1342
+Epoch Error(epoch:16) : 1358.0631
+Epoch Error(epoch:17) : 1303.5034
+Epoch Error(epoch:18) : 1273.9996
+Epoch Error(epoch:19) : 1238.4764
+Epoch Error(epoch:20) : 1165.2454
+Epoch Error(epoch:21) : 1133.8029
+Epoch Error(epoch:22) : 1112.4821
+Epoch Error(epoch:23) : 1070.3403
+Epoch Error(epoch:24) : 1043.2981
+Epoch Error(epoch:25) : 1006.2424
+Epoch Error(epoch:26) : 973.1235
+Epoch Error(epoch:27) : 961.1194
+Epoch Error(epoch:28) : 934.5557
+Epoch Error(epoch:29) : 908.8542
+Epoch Error(epoch:30) : 884.5755
+Epoch Error(epoch:31) : 865.1267
+Epoch Error(epoch:32) : 841.9252
+Epoch Error(epoch:33) : 836.2300
+Epoch Error(epoch:34) : 800.5726
+Epoch Error(epoch:35) : 777.6507
+Epoch Error(epoch:36) : 772.3112
+Epoch Error(epoch:37) : 762.0242
+Epoch Error(epoch:38) : 728.5281
+Epoch Error(epoch:39) : 722.1328
+Epoch Error(epoch:40) : 700.2907
+Epoch Error(epoch:41) : 688.1985
+Epoch Error(epoch:42) : 683.7601
+Epoch Error(epoch:43) : 670.9900
+Epoch Error(epoch:44) : 654.8722
+Epoch Error(epoch:45) : 648.0097
+Epoch Error(epoch:46) : 644.3279
+Epoch Error(epoch:47) : 613.5683
+Epoch Error(epoch:48) : 610.7501
+Epoch Error(epoch:49) : 610.2108
+--------------------
+Training the 2 st rbm layer
+Epoch Error(epoch:0) : 210.6614
+Epoch Error(epoch:1) : 185.5953
+Epoch Error(epoch:2) : 165.5037
+Epoch Error(epoch:3) : 145.7548
+Epoch Error(epoch:4) : 126.9138
+Epoch Error(epoch:5) : 113.0821
+Epoch Error(epoch:6) : 101.8479
+Epoch Error(epoch:7) : 91.9536
+Epoch Error(epoch:8) : 83.4515
+Epoch Error(epoch:9) : 76.3136
+Epoch Error(epoch:10) : 70.8972
+Epoch Error(epoch:11) : 65.8094
+Epoch Error(epoch:12) : 61.4023
+Epoch Error(epoch:13) : 58.6013
+Epoch Error(epoch:14) : 54.0638
+Epoch Error(epoch:15) : 51.0104
+Epoch Error(epoch:16) : 48.4498
+Epoch Error(epoch:17) : 45.7733
+Epoch Error(epoch:18) : 43.3325
+Epoch Error(epoch:19) : 42.4111
+Epoch Error(epoch:20) : 40.7162
+Epoch Error(epoch:21) : 38.8902
+Epoch Error(epoch:22) : 38.2461
+Epoch Error(epoch:23) : 37.9802
+Epoch Error(epoch:24) : 37.0382
+Epoch Error(epoch:25) : 34.1700
+Epoch Error(epoch:26) : 34.7858
+Epoch Error(epoch:27) : 33.5109
+Epoch Error(epoch:28) : 33.1940
+Epoch Error(epoch:29) : 32.8684
+Epoch Error(epoch:30) : 31.8863
+Epoch Error(epoch:31) : 31.1047
+Epoch Error(epoch:32) : 30.7211
+Epoch Error(epoch:33) : 29.9626
+Epoch Error(epoch:34) : 29.9009
+Epoch Error(epoch:35) : 29.8223
+Epoch Error(epoch:36) : 29.1001
+Epoch Error(epoch:37) : 27.9065
+Epoch Error(epoch:38) : 27.7595
+Epoch Error(epoch:39) : 27.0145
+Epoch Error(epoch:40) : 27.9865
+Epoch Error(epoch:41) : 26.7952
+Epoch Error(epoch:42) : 26.7243
+Epoch Error(epoch:43) : 25.9534
+Epoch Error(epoch:44) : 25.4383
+Epoch Error(epoch:45) : 25.6189
+Epoch Error(epoch:46) : 25.0205
+Epoch Error(epoch:47) : 24.7377
+Epoch Error(epoch:48) : 23.9524
+Epoch Error(epoch:49) : 24.1183
+Epoch:  0 step: 0 | train loss: 1.1570
+Epoch:  0 step: 10 | train loss: 1.0621
+Epoch:  0 step: 20 | train loss: 1.1096
+Epoch:  0 step: 30 | train loss: 1.1929
+Epoch:  1 step: 0 | train loss: 1.0954
+Epoch:  1 step: 10 | train loss: 1.1734
+Epoch:  1 step: 20 | train loss: 1.0945
+Epoch:  1 step: 30 | train loss: 1.1723
+Epoch:  2 step: 0 | train loss: 1.1302
+Epoch:  2 step: 10 | train loss: 0.9591
+Epoch:  2 step: 20 | train loss: 1.0878
+Epoch:  2 step: 30 | train loss: 1.1095
+Epoch:  3 step: 0 | train loss: 1.1670
+Epoch:  3 step: 10 | train loss: 1.0740
+Epoch:  3 step: 20 | train loss: 1.2154
+Epoch:  3 step: 30 | train loss: 1.0690
+Epoch:  4 step: 0 | train loss: 1.0571
+Epoch:  4 step: 10 | train loss: 0.9554
+Epoch:  4 step: 20 | train loss: 1.1543
+Epoch:  4 step: 30 | train loss: 1.0970
+prediciton: [2 1 2 2 2 1 2 0 2 2 2 1 2 1 2 2 2 2 2 2 2 0 1 2 2 2 2 2 1 1 1 2 2 2 2 2 2
+ 2 2 2 2 2 2 2 2 1 2 2 2 2 2 2 1 2 2 2 2 2 2 2 1 2 1 2 2 2 2 2 1 1 2 2 2 2
+ 2 2 2 2 2 2 2 2 2 2 2 2 2 2 1 2 2 1 1 2 2 2 0 2 2 2 1 2 2 2 2 2 2 1 2 2 2
+ 2 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 1 1 2 2 2 2 2 2 2 2 2 2 1 1 2 1
+ 2 2 2 1 2 2 2 2 2 2 2 2 2 2 2 2 2 1 1 1 0 2 2 1 2 2 2 0 2 2 2 2 1 2 2 2 2
+ 2 2 1 2 1 1 2 2 2]
+true value: [0 0 2 1 2 2 0 2 0 1 1 0 1 2 2 2 0 0 2 2 2 2 2 1 1 2 2 2 2 1 0 0 1 2 2 2 2
+ 2 1 2 0 2 0 0 0 1 0 2 0 2 2 2 2 2 2 2 0 2 2 2 2 2 1 0 1 1 2 2 2 2 2 1 1 0
+ 0 1 0 2 2 2 0 0 1 0 2 2 0 1 0 2 0 2 2 2 1 0 2 2 1 2 2 2 0 1 0 2 2 1 0 1 2
+ 2 2 1 2 2 1 2 2 0 0 2 2 2 2 2 2 0 0 0 2 1 2 2 1 0 2 2 0 0 0 1 2 2 1 1 0 2
+ 0 0 2 0 1 2 1 0 1 2 2 0 2 0 2 2 2 0 2 1 1 0 2 2 2 1 0 1 2 1 0 0 1 2 0 2 2
+ 2 2 0 1 0 0 2 1 2]
+test accuracy: 0.44 duration:96.2358
+
+Process finished with exit code 0

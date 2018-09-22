@@ -1,0 +1,299 @@
+/usr/local/bin/python3.6 /Users/lisa/Downloads/企业评估模型/eastmoney/simNN.py
+running 2 times......
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/torch/nn/modules/container.py:91: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+accuracy: 0.6649484536082474 duration: 57.47974610328674
+accuracy: 0.6443298969072165 duration: 65.5539870262146
+lr: 0.001 | epoch: 500 | momentum: 0.9 | batch size: 10 accuracy: 0.654639175257732 | duration: 61.51686656475067
+running 2 times......
+accuracy: 0.8092783505154639 duration: 56.723551988601685
+accuracy: 0.7216494845360825 duration: 61.695338010787964
+lr: 0.005 | epoch: 500 | momentum: 0.9 | batch size: 10 accuracy: 0.7654639175257731 | duration: 59.209444999694824
+running 2 times......
+accuracy: 0.8041237113402062 duration: 61.94454288482666
+accuracy: 0.7835051546391752 duration: 53.63303589820862
+lr: 0.01 | epoch: 500 | momentum: 0.9 | batch size: 10 accuracy: 0.7938144329896908 | duration: 57.78878939151764
+running 2 times......
+accuracy: 0.8092783505154639 duration: 57.97318911552429
+accuracy: 0.7319587628865979 duration: 62.06303095817566
+lr: 0.05 | epoch: 500 | momentum: 0.9 | batch size: 10 accuracy: 0.7706185567010309 | duration: 60.018110036849976
+running 2 times......
+accuracy: 0.7474226804123711 duration: 60.014825105667114
+accuracy: 0.4896907216494845 duration: 59.17302393913269
+lr: 0.1 | epoch: 500 | momentum: 0.9 | batch size: 10 accuracy: 0.6185567010309279 | duration: 59.5939245223999
+running 2 times......
+accuracy: 0.5773195876288659 duration: 65.77501916885376
+accuracy: 0.5567010309278351 duration: 56.64008712768555
+lr: 0.001 | epoch: 500 | momentum: 0.8 | batch size: 10 accuracy: 0.5670103092783505 | duration: 61.20755314826965
+running 2 times......
+accuracy: 0.7164948453608248 duration: 61.79496788978577
+accuracy: 0.6855670103092784 duration: 57.549696922302246
+lr: 0.005 | epoch: 500 | momentum: 0.8 | batch size: 10 accuracy: 0.7010309278350515 | duration: 59.672332406044006
+running 2 times......
+accuracy: 0.6804123711340206 duration: 59.90102291107178
+accuracy: 0.7474226804123711 duration: 56.900097131729126
+lr: 0.01 | epoch: 500 | momentum: 0.8 | batch size: 10 accuracy: 0.7139175257731959 | duration: 58.40056002140045
+running 2 times......
+accuracy: 0.7783505154639175 duration: 56.059293270111084
+accuracy: 0.8092783505154639 duration: 56.082931995391846
+lr: 0.05 | epoch: 500 | momentum: 0.8 | batch size: 10 accuracy: 0.7938144329896908 | duration: 56.071112632751465
+running 2 times......
+accuracy: 0.654639175257732 duration: 60.43638586997986
+accuracy: 0.7835051546391752 duration: 53.491305112838745
+lr: 0.1 | epoch: 500 | momentum: 0.8 | batch size: 10 accuracy: 0.7190721649484536 | duration: 56.9638454914093
+running 2 times......
+accuracy: 0.5618556701030928 duration: 57.39941716194153
+accuracy: 0.5618556701030928 duration: 59.85057806968689
+lr: 0.001 | epoch: 500 | momentum: 0.7 | batch size: 10 accuracy: 0.5618556701030928 | duration: 58.62499761581421
+running 2 times......
+accuracy: 0.711340206185567 duration: 58.751911878585815
+accuracy: 0.7061855670103093 duration: 58.48517298698425
+lr: 0.005 | epoch: 500 | momentum: 0.7 | batch size: 10 accuracy: 0.7087628865979382 | duration: 58.618542432785034
+running 2 times......
+accuracy: 0.7474226804123711 duration: 56.03018593788147
+accuracy: 0.7989690721649485 duration: 55.95537614822388
+lr: 0.01 | epoch: 500 | momentum: 0.7 | batch size: 10 accuracy: 0.7731958762886598 | duration: 55.99278104305267
+running 2 times......
+accuracy: 0.7680412371134021 duration: 55.64376401901245
+accuracy: 0.8247422680412371 duration: 59.845738887786865
+lr: 0.05 | epoch: 500 | momentum: 0.7 | batch size: 10 accuracy: 0.7963917525773196 | duration: 57.74475145339966
+running 2 times......
+accuracy: 0.7371134020618557 duration: 61.97340488433838
+accuracy: 0.7061855670103093 duration: 51.53473210334778
+lr: 0.1 | epoch: 500 | momentum: 0.7 | batch size: 10 accuracy: 0.7216494845360826 | duration: 56.75406849384308
+running 2 times......
+accuracy: 0.5567010309278351 duration: 53.11646509170532
+accuracy: 0.5670103092783505 duration: 51.757482051849365
+lr: 0.001 | epoch: 500 | momentum: 0.6 | batch size: 10 accuracy: 0.5618556701030928 | duration: 52.436973571777344
+running 2 times......
+accuracy: 0.6082474226804123 duration: 59.15801787376404
+accuracy: 0.7628865979381443 duration: 56.31561088562012
+lr: 0.005 | epoch: 500 | momentum: 0.6 | batch size: 10 accuracy: 0.6855670103092784 | duration: 57.73681437969208
+running 2 times......
+accuracy: 0.6958762886597938 duration: 56.183035135269165
+accuracy: 0.711340206185567 duration: 59.77004861831665
+lr: 0.01 | epoch: 500 | momentum: 0.6 | batch size: 10 accuracy: 0.7036082474226804 | duration: 57.97654187679291
+running 2 times......
+accuracy: 0.7010309278350515 duration: 56.56143808364868
+accuracy: 0.8041237113402062 duration: 55.18349599838257
+lr: 0.05 | epoch: 500 | momentum: 0.6 | batch size: 10 accuracy: 0.7525773195876289 | duration: 55.872467041015625
+running 2 times......
+accuracy: 0.7319587628865979 duration: 57.20521903038025
+accuracy: 0.7989690721649485 duration: 55.54639911651611
+lr: 0.1 | epoch: 500 | momentum: 0.6 | batch size: 10 accuracy: 0.7654639175257731 | duration: 56.37580907344818
+running 2 times......
+accuracy: 0.5876288659793815 duration: 33.23011875152588
+accuracy: 0.5773195876288659 duration: 33.60137987136841
+lr: 0.001 | epoch: 500 | momentum: 0.9 | batch size: 20 accuracy: 0.5824742268041236 | duration: 33.415749311447144
+running 2 times......
+accuracy: 0.7268041237113402 duration: 34.54226016998291
+accuracy: 0.7268041237113402 duration: 39.705819845199585
+lr: 0.005 | epoch: 500 | momentum: 0.9 | batch size: 20 accuracy: 0.7268041237113402 | duration: 37.12404000759125
+running 2 times......
+accuracy: 0.711340206185567 duration: 38.83177995681763
+accuracy: 0.7216494845360825 duration: 36.320605754852295
+lr: 0.01 | epoch: 500 | momentum: 0.9 | batch size: 20 accuracy: 0.7164948453608248 | duration: 37.57619285583496
+running 2 times......
+accuracy: 0.6855670103092784 duration: 34.750377893447876
+accuracy: 0.7628865979381443 duration: 36.65801382064819
+lr: 0.05 | epoch: 500 | momentum: 0.9 | batch size: 20 accuracy: 0.7242268041237113 | duration: 35.704195857048035
+running 2 times......
+accuracy: 0.7989690721649485 duration: 41.17186498641968
+accuracy: 0.7268041237113402 duration: 39.95233201980591
+lr: 0.1 | epoch: 500 | momentum: 0.9 | batch size: 20 accuracy: 0.7628865979381443 | duration: 40.56209850311279
+running 2 times......
+accuracy: 0.5154639175257731 duration: 42.21439790725708
+accuracy: 0.4948453608247423 duration: 41.06773614883423
+lr: 0.001 | epoch: 500 | momentum: 0.8 | batch size: 20 accuracy: 0.5051546391752577 | duration: 41.641067028045654
+running 2 times......
+accuracy: 0.6804123711340206 duration: 41.264039039611816
+accuracy: 0.6958762886597938 duration: 36.44012784957886
+lr: 0.005 | epoch: 500 | momentum: 0.8 | batch size: 20 accuracy: 0.6881443298969072 | duration: 38.85208344459534
+running 2 times......
+accuracy: 0.7474226804123711 duration: 37.530853033065796
+accuracy: 0.7835051546391752 duration: 37.18610501289368
+lr: 0.01 | epoch: 500 | momentum: 0.8 | batch size: 20 accuracy: 0.7654639175257731 | duration: 37.358479022979736
+running 2 times......
+accuracy: 0.7371134020618557 duration: 35.5778968334198
+accuracy: 0.6855670103092784 duration: 32.69378614425659
+lr: 0.05 | epoch: 500 | momentum: 0.8 | batch size: 20 accuracy: 0.711340206185567 | duration: 34.135841488838196
+running 2 times......
+accuracy: 0.8195876288659794 duration: 32.817907094955444
+accuracy: 0.6907216494845361 duration: 33.369364976882935
+lr: 0.1 | epoch: 500 | momentum: 0.8 | batch size: 20 accuracy: 0.7551546391752577 | duration: 33.09363603591919
+running 2 times......
+accuracy: 0.5360824742268041 duration: 35.309887170791626
+accuracy: 0.520618556701031 duration: 31.433291912078857
+lr: 0.001 | epoch: 500 | momentum: 0.7 | batch size: 20 accuracy: 0.5283505154639175 | duration: 33.37158954143524
+running 2 times......
+accuracy: 0.6804123711340206 duration: 39.338852882385254
+accuracy: 0.654639175257732 duration: 37.133054971694946
+lr: 0.005 | epoch: 500 | momentum: 0.7 | batch size: 20 accuracy: 0.6675257731958764 | duration: 38.2359539270401
+running 2 times......
+accuracy: 0.6907216494845361 duration: 40.98758101463318
+accuracy: 0.7061855670103093 duration: 34.54671382904053
+lr: 0.01 | epoch: 500 | momentum: 0.7 | batch size: 20 accuracy: 0.6984536082474226 | duration: 37.76714742183685
+running 2 times......
+accuracy: 0.8092783505154639 duration: 38.0135440826416
+accuracy: 0.8350515463917526 duration: 39.85972309112549
+lr: 0.05 | epoch: 500 | momentum: 0.7 | batch size: 20 accuracy: 0.8221649484536082 | duration: 38.936633586883545
+running 2 times......
+accuracy: 0.8144329896907216 duration: 38.15580701828003
+accuracy: 0.865979381443299 duration: 32.61439108848572
+lr: 0.1 | epoch: 500 | momentum: 0.7 | batch size: 20 accuracy: 0.8402061855670103 | duration: 35.38509905338287
+running 2 times......
+accuracy: 0.5463917525773195 duration: 32.58361506462097
+accuracy: 0.5154639175257731 duration: 32.92813205718994
+lr: 0.001 | epoch: 500 | momentum: 0.6 | batch size: 20 accuracy: 0.5309278350515463 | duration: 32.75587356090546
+running 2 times......
+accuracy: 0.6597938144329897 duration: 33.617729902267456
+accuracy: 0.5876288659793815 duration: 37.23233890533447
+lr: 0.005 | epoch: 500 | momentum: 0.6 | batch size: 20 accuracy: 0.6237113402061856 | duration: 35.425034403800964
+running 2 times......
+accuracy: 0.6804123711340206 duration: 41.0746328830719
+accuracy: 0.6443298969072165 duration: 40.797446966171265
+lr: 0.01 | epoch: 500 | momentum: 0.6 | batch size: 20 accuracy: 0.6623711340206186 | duration: 40.93603992462158
+running 2 times......
+accuracy: 0.8350515463917526 duration: 35.88248610496521
+accuracy: 0.7731958762886598 duration: 33.01809215545654
+lr: 0.05 | epoch: 500 | momentum: 0.6 | batch size: 20 accuracy: 0.8041237113402062 | duration: 34.45028913021088
+running 2 times......
+accuracy: 0.7268041237113402 duration: 35.85106706619263
+accuracy: 0.7319587628865979 duration: 38.594374895095825
+lr: 0.1 | epoch: 500 | momentum: 0.6 | batch size: 20 accuracy: 0.729381443298969 | duration: 37.222720980644226
+running 2 times......
+accuracy: 0.5773195876288659 duration: 28.70155906677246
+accuracy: 0.5154639175257731 duration: 25.650238037109375
+lr: 0.001 | epoch: 500 | momentum: 0.9 | batch size: 30 accuracy: 0.5463917525773195 | duration: 27.175898551940918
+running 2 times......
+accuracy: 0.6958762886597938 duration: 25.76577877998352
+accuracy: 0.6804123711340206 duration: 25.660705089569092
+lr: 0.005 | epoch: 500 | momentum: 0.9 | batch size: 30 accuracy: 0.6881443298969072 | duration: 25.713241934776306
+running 2 times......
+accuracy: 0.6958762886597938 duration: 25.57627511024475
+accuracy: 0.7577319587628866 duration: 25.406098127365112
+lr: 0.01 | epoch: 500 | momentum: 0.9 | batch size: 30 accuracy: 0.7268041237113402 | duration: 25.49118661880493
+running 2 times......
+accuracy: 0.8505154639175257 duration: 25.582770109176636
+accuracy: 0.8247422680412371 duration: 26.044243097305298
+lr: 0.05 | epoch: 500 | momentum: 0.9 | batch size: 30 accuracy: 0.8376288659793814 | duration: 25.813506603240967
+running 2 times......
+accuracy: 0.7731958762886598 duration: 25.831834316253662
+accuracy: 0.8195876288659794 duration: 25.88615393638611
+lr: 0.1 | epoch: 500 | momentum: 0.9 | batch size: 30 accuracy: 0.7963917525773196 | duration: 25.858994126319885
+running 2 times......
+accuracy: 0.4845360824742268 duration: 26.69409203529358
+accuracy: 0.5154639175257731 duration: 29.199209928512573
+lr: 0.001 | epoch: 500 | momentum: 0.8 | batch size: 30 accuracy: 0.5 | duration: 27.946650981903076
+running 2 times......
+accuracy: 0.5360824742268041 duration: 31.86718487739563
+accuracy: 0.6237113402061856 duration: 30.51867389678955
+lr: 0.005 | epoch: 500 | momentum: 0.8 | batch size: 30 accuracy: 0.5798969072164948 | duration: 31.19292938709259
+running 2 times......
+accuracy: 0.6701030927835051 duration: 27.98184895515442
+accuracy: 0.7731958762886598 duration: 28.377631187438965
+lr: 0.01 | epoch: 500 | momentum: 0.8 | batch size: 30 accuracy: 0.7216494845360825 | duration: 28.179740071296692
+running 2 times......
+accuracy: 0.8195876288659794 duration: 28.6297926902771
+accuracy: 0.7938144329896907 duration: 28.2384090423584
+lr: 0.05 | epoch: 500 | momentum: 0.8 | batch size: 30 accuracy: 0.8067010309278351 | duration: 28.43410086631775
+running 2 times......
+accuracy: 0.7268041237113402 duration: 28.501285314559937
+accuracy: 0.7783505154639175 duration: 26.852872848510742
+lr: 0.1 | epoch: 500 | momentum: 0.8 | batch size: 30 accuracy: 0.7525773195876289 | duration: 27.67707908153534
+running 2 times......
+accuracy: 0.4793814432989691 duration: 25.711426973342896
+accuracy: 0.5257731958762887 duration: 25.521735191345215
+lr: 0.001 | epoch: 500 | momentum: 0.7 | batch size: 30 accuracy: 0.5025773195876289 | duration: 25.616581082344055
+running 2 times......
+accuracy: 0.6391752577319587 duration: 29.634588956832886
+accuracy: 0.5463917525773195 duration: 29.054073095321655
+lr: 0.005 | epoch: 500 | momentum: 0.7 | batch size: 30 accuracy: 0.5927835051546391 | duration: 29.34433102607727
+running 2 times......
+accuracy: 0.654639175257732 duration: 28.758201837539673
+accuracy: 0.7371134020618557 duration: 30.738322973251343
+lr: 0.01 | epoch: 500 | momentum: 0.7 | batch size: 30 accuracy: 0.6958762886597938 | duration: 29.748262405395508
+running 2 times......
+accuracy: 0.6804123711340206 duration: 31.40413808822632
+accuracy: 0.5927835051546392 duration: 30.76357889175415
+lr: 0.05 | epoch: 500 | momentum: 0.7 | batch size: 30 accuracy: 0.6365979381443299 | duration: 31.083858489990234
+running 2 times......
+accuracy: 0.711340206185567 duration: 30.540626049041748
+accuracy: 0.7628865979381443 duration: 29.45539379119873
+lr: 0.1 | epoch: 500 | momentum: 0.7 | batch size: 30 accuracy: 0.7371134020618557 | duration: 29.99800992012024
+running 2 times......
+accuracy: 0.4536082474226804 duration: 29.35392999649048
+accuracy: 0.44329896907216493 duration: 30.71936798095703
+lr: 0.001 | epoch: 500 | momentum: 0.6 | batch size: 30 accuracy: 0.44845360824742264 | duration: 30.036648988723755
+running 2 times......
+accuracy: 0.5412371134020618 duration: 30.189844846725464
+accuracy: 0.5309278350515464 duration: 27.24096989631653
+lr: 0.005 | epoch: 500 | momentum: 0.6 | batch size: 30 accuracy: 0.5360824742268041 | duration: 28.715407371520996
+running 2 times......
+accuracy: 0.6082474226804123 duration: 29.220136880874634
+accuracy: 0.6391752577319587 duration: 27.03066611289978
+lr: 0.01 | epoch: 500 | momentum: 0.6 | batch size: 30 accuracy: 0.6237113402061856 | duration: 28.125401496887207
+running 2 times......
+accuracy: 0.7474226804123711 duration: 27.588016986846924
+accuracy: 0.5463917525773195 duration: 28.285176992416382
+lr: 0.05 | epoch: 500 | momentum: 0.6 | batch size: 30 accuracy: 0.6469072164948453 | duration: 27.936596989631653
+running 2 times......
+accuracy: 0.7474226804123711 duration: 27.22351884841919
+accuracy: 0.5103092783505154 duration: 26.96885895729065
+lr: 0.1 | epoch: 500 | momentum: 0.6 | batch size: 30 accuracy: 0.6288659793814433 | duration: 27.09618890285492
+running 2 times......
+accuracy: 0.7319587628865979 duration: 107.70251202583313
+accuracy: 0.7061855670103093 duration: 103.9812879562378
+lr: 0.001 | epoch: 1000 | momentum: 0.9 | batch size: 10 accuracy: 0.7190721649484536 | duration: 105.84189999103546
+running 2 times......
+accuracy: 0.7835051546391752 duration: 118.35149312019348
+accuracy: 0.788659793814433 duration: 128.5834608078003
+lr: 0.005 | epoch: 1000 | momentum: 0.9 | batch size: 10 accuracy: 0.7860824742268041 | duration: 123.46747696399689
+running 2 times......
+accuracy: 0.8195876288659794 duration: 112.21650671958923
+accuracy: 0.8247422680412371 duration: 113.55255508422852
+lr: 0.01 | epoch: 1000 | momentum: 0.9 | batch size: 10 accuracy: 0.8221649484536082 | duration: 112.88453090190887
+running 2 times......
+accuracy: 0.8298969072164949 duration: 106.28157424926758
+accuracy: 0.7680412371134021 duration: 103.03388285636902
+lr: 0.05 | epoch: 1000 | momentum: 0.9 | batch size: 10 accuracy: 0.7989690721649485 | duration: 104.6577285528183
+running 2 times......
+accuracy: 0.7680412371134021 duration: 104.19792294502258
+accuracy: 0.7474226804123711 duration: 111.51146793365479
+lr: 0.1 | epoch: 1000 | momentum: 0.9 | batch size: 10 accuracy: 0.7577319587628866 | duration: 107.85469543933868
+running 2 times......
+accuracy: 0.6288659793814433 duration: 127.92302107810974
+accuracy: 0.6752577319587629 duration: 123.63095569610596
+lr: 0.001 | epoch: 1000 | momentum: 0.8 | batch size: 10 accuracy: 0.6520618556701031 | duration: 125.77698838710785
+running 2 times......
+accuracy: 0.8092783505154639 duration: 106.42276883125305
+accuracy: 0.7783505154639175 duration: 109.03804087638855
+lr: 0.005 | epoch: 1000 | momentum: 0.8 | batch size: 10 accuracy: 0.7938144329896908 | duration: 107.7304048538208
+running 2 times......
+accuracy: 0.7628865979381443 duration: 108.6023178100586
+accuracy: 0.8092783505154639 duration: 108.07446479797363
+lr: 0.01 | epoch: 1000 | momentum: 0.8 | batch size: 10 accuracy: 0.7860824742268041 | duration: 108.33839130401611
+running 2 times......
+accuracy: 0.8247422680412371 duration: 104.03617215156555
+accuracy: 0.8041237113402062 duration: 108.7725350856781
+lr: 0.05 | epoch: 1000 | momentum: 0.8 | batch size: 10 accuracy: 0.8144329896907216 | duration: 106.40435361862183
+running 2 times......
+accuracy: 0.7835051546391752 duration: 109.42974209785461
+accuracy: 0.7680412371134021 duration: 110.42000603675842
+lr: 0.1 | epoch: 1000 | momentum: 0.8 | batch size: 10 accuracy: 0.7757731958762887 | duration: 109.92487406730652
+running 2 times......
+accuracy: 0.6494845360824743 duration: 116.24397611618042
+accuracy: 0.6443298969072165 duration: 105.9677209854126
+lr: 0.001 | epoch: 1000 | momentum: 0.7 | batch size: 10 accuracy: 0.6469072164948454 | duration: 111.10584855079651
+running 2 times......
+accuracy: 0.8195876288659794 duration: 101.22964811325073
+accuracy: 0.7731958762886598 duration: 100.84006786346436
+lr: 0.005 | epoch: 1000 | momentum: 0.7 | batch size: 10 accuracy: 0.7963917525773196 | duration: 101.03485798835754
+running 2 times......
+accuracy: 0.845360824742268 duration: 101.52939105033875
+accuracy: 0.8402061855670103 duration: 100.95434904098511
+lr: 0.01 | epoch: 1000 | momentum: 0.7 | batch size: 10 accuracy: 0.8427835051546392 | duration: 101.24187004566193
+running 2 times......
+accuracy: 0.7525773195876289 duration: 100.97672915458679
+accuracy: 0.7835051546391752 duration: 102.27103996276855
+lr: 0.05 | epoch: 1000 | momentum: 0.7 | batch size: 10 accuracy: 0.768041237113402 | duration: 101.62388455867767

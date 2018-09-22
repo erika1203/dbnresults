@@ -1,0 +1,116 @@
+/usr/local/bin/python3.6 /Users/lisa/Downloads/DBNeast/experiment.py
+--------------------
+Training the 1 st rbm layer
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/torch/nn/functional.py:1006: UserWarning: nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.
+  warnings.warn("nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.")
+Epoch Error(epoch:0) : 3408.3040
+Epoch Error(epoch:1) : 3361.9014
+Epoch Error(epoch:2) : 3353.0693
+Epoch Error(epoch:3) : 3335.5933
+Epoch Error(epoch:4) : 3314.4280
+Epoch Error(epoch:5) : 3318.8921
+Epoch Error(epoch:6) : 3313.1370
+Epoch Error(epoch:7) : 3299.2512
+Epoch Error(epoch:8) : 3303.0811
+Epoch Error(epoch:9) : 3282.4238
+Epoch Error(epoch:10) : 3287.6775
+Epoch Error(epoch:11) : 3278.3491
+Epoch Error(epoch:12) : 3279.2883
+Epoch Error(epoch:13) : 3271.6240
+Epoch Error(epoch:14) : 3273.4004
+Epoch Error(epoch:15) : 3267.6125
+Epoch Error(epoch:16) : 3269.9543
+Epoch Error(epoch:17) : 3274.3931
+Epoch Error(epoch:18) : 3276.7676
+Epoch Error(epoch:19) : 3276.4788
+Epoch Error(epoch:20) : 3275.1890
+Epoch Error(epoch:21) : 3280.3804
+Epoch Error(epoch:22) : 3277.2256
+Epoch Error(epoch:23) : 3280.0337
+Epoch Error(epoch:24) : 3278.5596
+Epoch Error(epoch:25) : 3276.2505
+Epoch Error(epoch:26) : 3284.7881
+Epoch Error(epoch:27) : 3282.1296
+Epoch Error(epoch:28) : 3281.3572
+Epoch Error(epoch:29) : 3283.3232
+Epoch Error(epoch:30) : 3284.6497
+Epoch Error(epoch:31) : 3287.7786
+Epoch Error(epoch:32) : 3283.9800
+Epoch Error(epoch:33) : 3286.0566
+Epoch Error(epoch:34) : 3284.3557
+Epoch Error(epoch:35) : 3284.8811
+Epoch Error(epoch:36) : 3284.7324
+Epoch Error(epoch:37) : 3285.4199
+Epoch Error(epoch:38) : 3286.7644
+Epoch Error(epoch:39) : 3285.1462
+Epoch Error(epoch:40) : 3284.3289
+Epoch Error(epoch:41) : 3287.0173
+Epoch Error(epoch:42) : 3284.2788
+Epoch Error(epoch:43) : 3285.2681
+Epoch Error(epoch:44) : 3285.4946
+Epoch Error(epoch:45) : 3283.9749
+Epoch Error(epoch:46) : 3283.8977
+Epoch Error(epoch:47) : 3283.1489
+Epoch Error(epoch:48) : 3282.5835
+Epoch Error(epoch:49) : 3281.7271
+Epoch:  0 step: 0 | train loss: 1.0338
+Epoch:  0 step: 10 | train loss: 1.1819
+Epoch:  0 step: 20 | train loss: 1.1928
+Epoch:  0 step: 30 | train loss: 1.1172
+Epoch:  1 step: 0 | train loss: 1.1822
+Epoch:  1 step: 10 | train loss: 0.9944
+Epoch:  1 step: 20 | train loss: 1.1330
+Epoch:  1 step: 30 | train loss: 1.0478
+Epoch:  2 step: 0 | train loss: 1.0311
+Epoch:  2 step: 10 | train loss: 1.0397
+Epoch:  2 step: 20 | train loss: 1.0540
+Epoch:  2 step: 30 | train loss: 1.2115
+Epoch:  3 step: 0 | train loss: 1.1805
+Epoch:  3 step: 10 | train loss: 1.0715
+Epoch:  3 step: 20 | train loss: 1.0526
+Epoch:  3 step: 30 | train loss: 1.1213
+Epoch:  4 step: 0 | train loss: 1.0872
+Epoch:  4 step: 10 | train loss: 1.0471
+Epoch:  4 step: 20 | train loss: 0.9713
+Epoch:  4 step: 30 | train loss: 1.1767
+prediciton: [2 0 2 2 2 2 2 2 2 2 2 2 2 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 1 2 2 2 2 1
+ 2 2 2 2 2 1 2 1 2 2 2 2 2 2 2 2 2 2 1 2 2 2 2 2 2 2 1 2 2 2 2 2 2 2 2 2 2
+ 2 1 2 2 2 2 2 1 1 0 2 2 2 2 2 2 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 1 2 2 2
+ 2 2 2 2 2 2 2 2 2 1 2 2 2 2 2 2 2 2 2 0 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 1
+ 2 2 2 2 2 2 2 2 2 2 2 2 2 2 1 2 2 2 2 2 2 1 2 2 2 2 2 0 2 2 2 2 2 2 2 2 2
+ 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 1 2 2 2 2 2 2 2 2 2 2 1 2 2 0 2 2 1 2 2 2
+ 2 2 1 2 2 2 2 2 2 0 2 2 1 2 2 2 2 2 1 2 2 2 2 2 2 2 2 2 1 2 2 2 2 2 0 2 2
+ 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 0 2 2 2 2 2 2 2 1 2 2
+ 0 2 2 2 2 2 2 2 2 0 2 1 2 2 2 0 1 2 2 2 2 1 2 2 0 2 2 2 2 2 1 2 2 2 2 2 2
+ 2 2 2 2 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+ 1 2 2 2 2 2 2 2 2 2 0 2 1 2 2 2 2 2 2 2 2 2 2 2 2 2 1 2 2 2 1 2 2 2 1 2 2
+ 2 2 2 2 2 2 2 2 2 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 0 2 2 2 2 2
+ 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 1 2 2 2 2 1 2 2 2 0 2 2 0 2 2 2
+ 1 2 2 2 2 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+ 1 2 2 1 2 2 2 2 2 2 2 2 2 2 2 2 2 1 2 1 2 2 2 2 2 2 2 2 2 1 2 2 2 1 2 2 2
+ 2 2 1 2 2 1 2 2 2 2 2 2 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 0 2 2 2 2
+ 2 2 2 1 2 2 2 2 2 2 2 2 2 1 2 2 2 0 2 2 2 2 2 2 2 2 2 1 1 1 0 0 2 2 2 2 1
+ 2 2 2 2 2 2 2 2 2 2 2 2 1 2 2 2 2 2 2 1 0 2 2 2 2 1 2 2 0 2 2 2 2 0 2 2 2
+ 2 2 2 2 1 2 2 2 2 2 2 2 1 2 2 2 2 2 0 2 2 2 2 2 2 2 2 2 2 2 2 2 1 2]
+true value: [0 2 1 2 2 1 2 1 1 0 2 0 1 2 0 0 2 2 2 2 2 2 2 2 0 2 2 2 1 0 2 2 1 1 1 1 2
+ 1 2 2 0 2 2 1 0 2 2 1 2 2 2 2 2 1 2 1 0 1 2 2 2 0 2 0 2 2 2 1 1 2 1 2 2 0
+ 1 0 2 1 0 2 2 0 1 0 2 1 2 2 0 2 2 2 0 1 0 1 2 1 1 0 1 0 2 2 2 1 2 2 2 2 1
+ 0 1 0 2 1 2 1 2 0 1 2 2 0 0 0 2 2 2 2 0 1 0 1 1 2 0 0 2 0 0 2 2 0 1 0 2 0
+ 1 1 0 0 1 2 0 2 1 2 1 2 1 0 1 2 2 2 2 0 2 1 2 1 0 2 1 2 1 1 2 2 1 1 2 2 0
+ 2 2 2 1 1 2 2 0 0 1 2 2 1 2 0 1 2 2 0 1 2 2 0 2 0 2 0 2 1 0 2 2 2 1 2 2 2
+ 2 2 2 0 0 0 1 2 0 2 1 2 2 1 2 2 1 1 2 0 1 2 1 2 1 2 2 1 2 0 2 2 2 2 0 1 2
+ 0 2 2 0 2 1 0 2 1 2 2 0 2 2 1 1 0 0 1 2 1 2 1 2 2 0 0 1 0 0 2 2 2 0 1 2 0
+ 2 0 2 1 2 2 2 1 0 2 2 1 2 2 2 2 2 2 1 1 1 1 1 1 0 1 2 1 0 0 0 2 2 2 1 0 2
+ 0 0 2 2 0 2 1 1 0 1 0 0 2 1 2 2 0 2 1 0 0 0 0 2 1 2 0 1 1 2 1 2 0 2 1 2 2
+ 1 0 2 2 2 2 2 2 2 0 1 2 0 2 1 2 2 1 2 0 2 1 0 0 0 1 2 0 0 2 2 1 2 2 2 0 1
+ 1 2 1 0 2 0 0 0 0 2 2 0 2 1 2 0 0 1 0 0 1 2 2 2 1 1 0 1 0 0 2 2 1 2 2 2 0
+ 1 0 2 2 2 1 1 2 1 2 0 2 1 1 2 2 2 0 1 0 0 0 2 0 0 1 2 2 0 1 1 0 1 0 2 1 0
+ 2 2 2 2 1 2 1 2 0 2 1 1 0 1 2 1 2 2 2 2 2 1 2 2 0 1 0 1 2 0 0 1 1 0 0 2 1
+ 1 0 2 2 2 2 0 2 2 1 1 1 2 0 2 2 0 0 0 1 0 2 2 2 0 0 2 1 2 2 1 1 2 1 2 2 2
+ 1 2 0 2 1 0 0 2 2 1 1 1 2 0 2 2 2 1 2 1 1 1 1 0 1 2 2 2 0 1 2 2 2 2 2 2 1
+ 0 0 1 2 2 2 1 1 2 1 2 0 2 2 1 2 2 2 1 2 0 2 1 2 2 2 0 1 2 0 1 2 2 2 0 2 1
+ 0 2 0 2 0 2 0 1 1 0 2 2 0 0 2 2 2 2 2 1 0 2 2 2 1 0 2 2 2 2 2 2 0 0 2 2 1
+ 1 1 0 2 1 2 1 0 0 0 2 1 2 2 2 1 2 2 0 2 2 1 2 2 2 2 2 2 2 1 1 2 1 2]
+test accuracy: 0.47 duration:45.7484
+
+Process finished with exit code 0
