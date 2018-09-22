@@ -1,0 +1,171 @@
+/usr/local/bin/python3.6 /Volumes/新加卷/DBNtensorflow/models/classification_MINST.py
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+WARNING:tensorflow:From /Volumes/新加卷/DBNtensorflow/models/classification_MINST.py:18: read_data_sets (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
+WARNING:tensorflow:From /Users/lisa/Library/Python/3.6/lib/python/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:260: maybe_download (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please write your own downloading logic.
+WARNING:tensorflow:From /Users/lisa/Library/Python/3.6/lib/python/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:262: extract_images (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.data to implement this functionality.
+Extracting ../dataset/MNIST_data/train-images-idx3-ubyte.gz
+Extracting ../dataset/MNIST_data/train-labels-idx1-ubyte.gz
+WARNING:tensorflow:From /Users/lisa/Library/Python/3.6/lib/python/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:267: extract_labels (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.data to implement this functionality.
+WARNING:tensorflow:From /Users/lisa/Library/Python/3.6/lib/python/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:110: dense_to_one_hot (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.one_hot on tensors.
+Extracting ../dataset/MNIST_data/t10k-images-idx3-ubyte.gz
+Extracting ../dataset/MNIST_data/t10k-labels-idx1-ubyte.gz
+WARNING:tensorflow:From /Users/lisa/Library/Python/3.6/lib/python/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:290: DataSet.__init__ (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
+Datasets(train=<tensorflow.contrib.learn.python.learn.datasets.mnist.DataSet object at 0x11fa59a58>, validation=<tensorflow.contrib.learn.python.learn.datasets.mnist.DataSet object at 0x129bd7ba8>, test=<tensorflow.contrib.learn.python.learn.datasets.mnist.DataSet object at 0x129bd7be0>)
+Start building model...
+DBN:
+{'tbd': False, 'sav': False, 'show_pic': False, 'plot_para': True, 'name': 'DBN', 'ave_acc': 0, 'acc_list': [], 'momentum': 0.5, 'output_act_func': 'softmax', 'loss_func': 'cross_entropy', 'bp_algorithm': 'rmsp', 'pt_model': None, 'decay_lr': False, 'loss': None, 'accuracy': None, 'train_batch': None, 'merge': None, 'pt_img': None, 'pred_Y': None, 'train_curve': None, 'label_fig': None, 'label_tag': None, 'hidden_act_func': 'sigmoid', 'use_for': 'classification', 'lr': 0.001, 'epochs': 30, 'struct': [784, 400, 200, 100, 10], 'batch_size': 32, 'dropout': 0.12, 'pre_train': True, 'dbm_struct': [784, 400, 200, 100], 'units_type': ['gauss', 'bin'], 'cd_k': 1, 'rbm_lr': 0.001, 'rbm_epochs': 16, 'hidden_act': <function sigmoid at 0x118c8fc80>, 'output_act': <function softmax at 0x1193f86a8>}
+rbm-1:
+{'tbd': False, 'sav': False, 'show_pic': False, 'plot_para': True, 'name': 'rbm-1', 'ave_acc': 0, 'acc_list': [], 'momentum': 0.5, 'output_act_func': 'softmax', 'loss_func': 'mse', 'bp_algorithm': 'rmsp', 'pt_model': None, 'decay_lr': True, 'loss': None, 'accuracy': None, 'train_batch': None, 'merge': None, 'pt_img': None, 'pred_Y': None, 'train_curve': None, 'label_fig': None, 'label_tag': None, 'units_type': ['gauss', 'bin'], 'n_v': 784, 'n_h': 400, 'epochs': 16, 'batch_size': 32, 'cd_k': 1, 'lr': 0.001, 'h_func': <function sigmoid at 0x118c8fc80>, 'v_func': <function act_func.<locals>.affine at 0x129bdd598>}
+rbm-2:
+{'tbd': False, 'sav': False, 'show_pic': False, 'plot_para': True, 'name': 'rbm-2', 'ave_acc': 0, 'acc_list': [], 'momentum': 0.5, 'output_act_func': 'softmax', 'loss_func': 'mse', 'bp_algorithm': 'rmsp', 'pt_model': None, 'decay_lr': True, 'loss': None, 'accuracy': None, 'train_batch': None, 'merge': None, 'pt_img': None, 'pred_Y': None, 'train_curve': None, 'label_fig': None, 'label_tag': None, 'units_type': ['gauss', 'bin'], 'n_v': 400, 'n_h': 200, 'epochs': 16, 'batch_size': 32, 'cd_k': 1, 'lr': 0.001, 'h_func': <function sigmoid at 0x118c8fc80>, 'v_func': <function act_func.<locals>.affine at 0x129bdd510>}
+rbm-3:
+{'tbd': False, 'sav': False, 'show_pic': False, 'plot_para': True, 'name': 'rbm-3', 'ave_acc': 0, 'acc_list': [], 'momentum': 0.5, 'output_act_func': 'softmax', 'loss_func': 'mse', 'bp_algorithm': 'rmsp', 'pt_model': None, 'decay_lr': True, 'loss': None, 'accuracy': None, 'train_batch': None, 'merge': None, 'pt_img': None, 'pred_Y': None, 'train_curve': None, 'label_fig': None, 'label_tag': None, 'units_type': ['gauss', 'bin'], 'n_v': 200, 'n_h': 100, 'epochs': 16, 'batch_size': 32, 'cd_k': 1, 'lr': 0.001, 'h_func': <function sigmoid at 0x118c8fc80>, 'v_func': <function act_func.<locals>.affine at 0x129bddae8>}
+2018-09-21 13:23:12.875150: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+Start Pre-training...
+>>> Train RBM-1:
+>>> epoch = 1 , loss = 0.1553
+>>> epoch = 2 , loss = 0.1241
+>>> epoch = 3 , loss = 0.1105
+>>> epoch = 4 , loss = 0.1021
+>>> epoch = 5 , loss = 0.09619
+>>> epoch = 6 , loss = 0.09177
+>>> epoch = 7 , loss = 0.08818
+>>> epoch = 8 , loss = 0.08518
+>>> epoch = 9 , loss = 0.08287
+>>> epoch = 10 , loss = 0.08086
+>>> epoch = 11 , loss = 0.07912
+>>> epoch = 12 , loss = 0.07754
+>>> epoch = 13 , loss = 0.07629
+>>> epoch = 14 , loss = 0.0751
+>>> epoch = 15 , loss = 0.07402
+>>> epoch = 16 , loss = 0.07307
+>>> Train RBM-2:
+>>> epoch = 1 , loss = 0.1038
+>>> epoch = 2 , loss = 0.07925
+>>> epoch = 3 , loss = 0.06806
+>>> epoch = 4 , loss = 0.06131
+>>> epoch = 5 , loss = 0.05655
+>>> epoch = 6 , loss = 0.05288
+>>> epoch = 7 , loss = 0.04996
+>>> epoch = 8 , loss = 0.04751
+>>> epoch = 9 , loss = 0.04551
+>>> epoch = 10 , loss = 0.04376
+>>> epoch = 11 , loss = 0.04229
+>>> epoch = 12 , loss = 0.04092
+>>> epoch = 13 , loss = 0.03981
+>>> epoch = 14 , loss = 0.03875
+>>> epoch = 15 , loss = 0.0378
+>>> epoch = 16 , loss = 0.03697
+>>> Train RBM-3:
+>>> epoch = 1 , loss = 0.09101
+>>> epoch = 2 , loss = 0.06952
+>>> epoch = 3 , loss = 0.05886
+>>> epoch = 4 , loss = 0.05174
+>>> epoch = 5 , loss = 0.04663
+>>> epoch = 6 , loss = 0.0427
+>>> epoch = 7 , loss = 0.03957
+>>> epoch = 8 , loss = 0.03695
+>>> epoch = 9 , loss = 0.03481
+>>> epoch = 10 , loss = 0.03309
+>>> epoch = 11 , loss = 0.03152
+>>> epoch = 12 , loss = 0.0301
+>>> epoch = 13 , loss = 0.02894
+>>> epoch = 14 , loss = 0.02783
+>>> epoch = 15 , loss = 0.02686
+>>> epoch = 16 , loss = 0.02595
+Start Fine-tuning...
+>>> epoch = 1 , loss = 0.6076 , accuracy = 0.7996
+real value: [7 2 1 ... 4 5 6]
+prediciton: [7 2 1 ... 4 5 6]
+    >>> test accuracy = 0.9449
+>>> epoch = 2 , loss = 0.1799 , accuracy = 0.9475
+real value: [7 2 1 ... 4 5 6]
+prediciton: [7 2 1 ... 4 5 6]
+    >>> test accuracy = 0.9616
+>>> epoch = 3 , loss = 0.1338 , accuracy = 0.9614
+real value: [7 2 1 ... 4 5 6]
+prediciton: [7 2 1 ... 4 5 6]
+    >>> test accuracy = 0.9689
+>>> epoch = 4 , loss = 0.1118 , accuracy = 0.9679
+real value: [7 2 1 ... 4 5 6]
+prediciton: [7 2 1 ... 4 5 6]
+    >>> test accuracy = 0.972
+>>> epoch = 5 , loss = 0.09955 , accuracy = 0.9729
+    >>> test accuracy = 0.9719
+>>> epoch = 6 , loss = 0.09039 , accuracy = 0.975
+real value: [7 2 1 ... 4 5 6]
+prediciton: [7 2 1 ... 4 5 6]
+    >>> test accuracy = 0.9763
+>>> epoch = 7 , loss = 0.08542 , accuracy = 0.9777
+real value: [7 2 1 ... 4 5 6]
+prediciton: [7 2 1 ... 4 5 6]
+    >>> test accuracy = 0.9772
+>>> epoch = 8 , loss = 0.08018 , accuracy = 0.9795
+real value: [7 2 1 ... 4 5 6]
+prediciton: [7 2 1 ... 4 5 6]
+    >>> test accuracy = 0.981
+>>> epoch = 9 , loss = 0.07536 , accuracy = 0.9802
+    >>> test accuracy = 0.9797
+>>> epoch = 10 , loss = 0.07274 , accuracy = 0.9815
+    >>> test accuracy = 0.9794
+>>> epoch = 11 , loss = 0.0675 , accuracy = 0.9827
+    >>> test accuracy = 0.98
+>>> epoch = 12 , loss = 0.06371 , accuracy = 0.9838
+    >>> test accuracy = 0.981
+>>> epoch = 13 , loss = 0.06142 , accuracy = 0.984
+    >>> test accuracy = 0.9806
+>>> epoch = 14 , loss = 0.0613 , accuracy = 0.9845
+real value: [7 2 1 ... 4 5 6]
+prediciton: [7 2 1 ... 4 5 6]
+    >>> test accuracy = 0.9833
+>>> epoch = 15 , loss = 0.06034 , accuracy = 0.9854
+    >>> test accuracy = 0.9833
+>>> epoch = 16 , loss = 0.05739 , accuracy = 0.986
+    >>> test accuracy = 0.9802
+>>> epoch = 17 , loss = 0.05274 , accuracy = 0.9863
+    >>> test accuracy = 0.9822
+>>> epoch = 18 , loss = 0.0494 , accuracy = 0.9878
+    >>> test accuracy = 0.9825
+>>> epoch = 19 , loss = 0.04997 , accuracy = 0.9879
+real value: [7 2 1 ... 4 5 6]
+prediciton: [7 2 1 ... 4 5 6]
+    >>> test accuracy = 0.9848
+>>> epoch = 20 , loss = 0.04947 , accuracy = 0.9884
+    >>> test accuracy = 0.9835
+>>> epoch = 21 , loss = 0.05038 , accuracy = 0.9884
+    >>> test accuracy = 0.9825
+>>> epoch = 22 , loss = 0.04987 , accuracy = 0.9882
+    >>> test accuracy = 0.9817
+>>> epoch = 23 , loss = 0.04603 , accuracy = 0.9892
+real value: [7 2 1 ... 4 5 6]
+prediciton: [7 2 1 ... 4 5 6]
+    >>> test accuracy = 0.985
+>>> epoch = 24 , loss = 0.04404 , accuracy = 0.9899
+    >>> test accuracy = 0.984
+>>> epoch = 25 , loss = 0.04466 , accuracy = 0.9896
+    >>> test accuracy = 0.9839
+>>> epoch = 26 , loss = 0.04394 , accuracy = 0.9905
+    >>> test accuracy = 0.9839
+>>> epoch = 27 , loss = 0.04512 , accuracy = 0.9903
+    >>> test accuracy = 0.985
+>>> epoch = 28 , loss = 0.04117 , accuracy = 0.9905
+    >>> test accuracy = 0.985
+>>> epoch = 29 , loss = 0.04112 , accuracy = 0.991
+    >>> test accuracy = 0.9846
+>>> epoch = 30 , loss = 0.04085 , accuracy = 0.9913
+real value: [7 2 1 ... 4 5 6]
+prediciton: [7 2 1 ... 4 5 6]
+    >>> test accuracy = 0.9862

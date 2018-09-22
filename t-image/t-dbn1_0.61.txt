@@ -1,0 +1,154 @@
+/usr/local/bin/python3.6 /Volumes/新加卷/DBNtensorflow/models/eastmoney.py
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Start building model...
+DBN:
+{'tbd': False, 'sav': False, 'show_pic': False, 'plot_para': True, 'name': 'DBN', 'ave_acc': 0, 'acc_list': [], 'momentum': 0.5, 'output_act_func': 'softmax', 'loss_func': 'cross_entropy', 'bp_algorithm': 'rmsp', 'pt_model': None, 'decay_lr': False, 'loss': None, 'accuracy': None, 'train_batch': None, 'merge': None, 'pt_img': None, 'pred_Y': None, 'train_curve': None, 'label_fig': None, 'label_tag': None, 'hidden_act_func': 'sigmoid', 'use_for': 'classification', 'lr': 0.001, 'epochs': 30, 'struct': [26, 11, 6, 11, 11, 3], 'batch_size': 20, 'dropout': 0.12, 'pre_train': True, 'dbm_struct': [26, 11, 6, 11, 11], 'units_type': ['gauss', 'bin'], 'cd_k': 1, 'rbm_lr': 0.001, 'rbm_epochs': 16, 'hidden_act': <function sigmoid at 0x118d8cc80>, 'output_act': <function softmax at 0x1193c76a8>}
+rbm-1:
+{'tbd': False, 'sav': False, 'show_pic': False, 'plot_para': True, 'name': 'rbm-1', 'ave_acc': 0, 'acc_list': [], 'momentum': 0.5, 'output_act_func': 'softmax', 'loss_func': 'mse', 'bp_algorithm': 'rmsp', 'pt_model': None, 'decay_lr': True, 'loss': None, 'accuracy': None, 'train_batch': None, 'merge': None, 'pt_img': None, 'pred_Y': None, 'train_curve': None, 'label_fig': None, 'label_tag': None, 'units_type': ['gauss', 'bin'], 'n_v': 26, 'n_h': 11, 'epochs': 16, 'batch_size': 20, 'cd_k': 1, 'lr': 0.001, 'h_func': <function sigmoid at 0x118d8cc80>, 'v_func': <function act_func.<locals>.affine at 0x123bc7ea0>}
+rbm-2:
+{'tbd': False, 'sav': False, 'show_pic': False, 'plot_para': True, 'name': 'rbm-2', 'ave_acc': 0, 'acc_list': [], 'momentum': 0.5, 'output_act_func': 'softmax', 'loss_func': 'mse', 'bp_algorithm': 'rmsp', 'pt_model': None, 'decay_lr': True, 'loss': None, 'accuracy': None, 'train_batch': None, 'merge': None, 'pt_img': None, 'pred_Y': None, 'train_curve': None, 'label_fig': None, 'label_tag': None, 'units_type': ['gauss', 'bin'], 'n_v': 11, 'n_h': 6, 'epochs': 16, 'batch_size': 20, 'cd_k': 1, 'lr': 0.001, 'h_func': <function sigmoid at 0x118d8cc80>, 'v_func': <function act_func.<locals>.affine at 0x10596e488>}
+rbm-3:
+{'tbd': False, 'sav': False, 'show_pic': False, 'plot_para': True, 'name': 'rbm-3', 'ave_acc': 0, 'acc_list': [], 'momentum': 0.5, 'output_act_func': 'softmax', 'loss_func': 'mse', 'bp_algorithm': 'rmsp', 'pt_model': None, 'decay_lr': True, 'loss': None, 'accuracy': None, 'train_batch': None, 'merge': None, 'pt_img': None, 'pred_Y': None, 'train_curve': None, 'label_fig': None, 'label_tag': None, 'units_type': ['gauss', 'bin'], 'n_v': 6, 'n_h': 11, 'epochs': 16, 'batch_size': 20, 'cd_k': 1, 'lr': 0.001, 'h_func': <function sigmoid at 0x118d8cc80>, 'v_func': <function act_func.<locals>.affine at 0x12a8d1950>}
+rbm-4:
+{'tbd': False, 'sav': False, 'show_pic': False, 'plot_para': True, 'name': 'rbm-4', 'ave_acc': 0, 'acc_list': [], 'momentum': 0.5, 'output_act_func': 'softmax', 'loss_func': 'mse', 'bp_algorithm': 'rmsp', 'pt_model': None, 'decay_lr': True, 'loss': None, 'accuracy': None, 'train_batch': None, 'merge': None, 'pt_img': None, 'pred_Y': None, 'train_curve': None, 'label_fig': None, 'label_tag': None, 'units_type': ['gauss', 'bin'], 'n_v': 11, 'n_h': 11, 'epochs': 16, 'batch_size': 20, 'cd_k': 1, 'lr': 0.001, 'h_func': <function sigmoid at 0x118d8cc80>, 'v_func': <function act_func.<locals>.affine at 0x12a8d1bf8>}
+2018-09-21 13:02:32.536276: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+Start Pre-training...
+>>> Train RBM-1:
+>>> epoch = 1 , loss = 7.287e+16
+>>> epoch = 2 , loss = 6.475e+16
+>>> epoch = 3 , loss = 5.86e+16
+>>> epoch = 4 , loss = 5.396e+16
+>>> epoch = 5 , loss = 5.047e+16
+>>> epoch = 6 , loss = 4.783e+16
+>>> epoch = 7 , loss = 4.584e+16
+>>> epoch = 8 , loss = 4.433e+16
+>>> epoch = 9 , loss = 4.319e+16
+>>> epoch = 10 , loss = 4.233e+16
+>>> epoch = 11 , loss = 4.168e+16
+>>> epoch = 12 , loss = 4.119e+16
+>>> epoch = 13 , loss = 4.082e+16
+>>> epoch = 14 , loss = 4.054e+16
+>>> epoch = 15 , loss = 4.032e+16
+>>> epoch = 16 , loss = 4.016e+16
+>>> Train RBM-2:
+>>> epoch = 1 , loss = 0.5977
+>>> epoch = 2 , loss = 0.5095
+>>> epoch = 3 , loss = 0.4521
+>>> epoch = 4 , loss = 0.3976
+>>> epoch = 5 , loss = 0.3519
+>>> epoch = 6 , loss = 0.3159
+>>> epoch = 7 , loss = 0.2819
+>>> epoch = 8 , loss = 0.2462
+>>> epoch = 9 , loss = 0.2308
+>>> epoch = 10 , loss = 0.2069
+>>> epoch = 11 , loss = 0.1904
+>>> epoch = 12 , loss = 0.1738
+>>> epoch = 13 , loss = 0.1657
+>>> epoch = 14 , loss = 0.1502
+>>> epoch = 15 , loss = 0.1478
+>>> epoch = 16 , loss = 0.1363
+>>> Train RBM-3:
+>>> epoch = 1 , loss = 0.5935
+>>> epoch = 2 , loss = 0.5459
+>>> epoch = 3 , loss = 0.45
+>>> epoch = 4 , loss = 0.4053
+>>> epoch = 5 , loss = 0.3686
+>>> epoch = 6 , loss = 0.3448
+>>> epoch = 7 , loss = 0.3227
+>>> epoch = 8 , loss = 0.2912
+>>> epoch = 9 , loss = 0.2857
+>>> epoch = 10 , loss = 0.2718
+>>> epoch = 11 , loss = 0.264
+>>> epoch = 12 , loss = 0.2514
+>>> epoch = 13 , loss = 0.2491
+>>> epoch = 14 , loss = 0.2538
+>>> epoch = 15 , loss = 0.2503
+>>> epoch = 16 , loss = 0.2387
+>>> Train RBM-4:
+>>> epoch = 1 , loss = 0.5196
+>>> epoch = 2 , loss = 0.4361
+>>> epoch = 3 , loss = 0.3678
+>>> epoch = 4 , loss = 0.3104
+>>> epoch = 5 , loss = 0.2741
+>>> epoch = 6 , loss = 0.2418
+>>> epoch = 7 , loss = 0.227
+>>> epoch = 8 , loss = 0.2067
+>>> epoch = 9 , loss = 0.1974
+>>> epoch = 10 , loss = 0.1923
+>>> epoch = 11 , loss = 0.182
+>>> epoch = 12 , loss = 0.1825
+>>> epoch = 13 , loss = 0.1806
+>>> epoch = 14 , loss = 0.1733
+>>> epoch = 15 , loss = 0.173
+>>> epoch = 16 , loss = 0.1695
+Start Fine-tuning...
+>>> epoch = 1 , loss = 1.367 , accuracy = 0.2986
+    >>> test accuracy = 0.1649
+>>> epoch = 2 , loss = 1.201 , accuracy = 0.3171
+    >>> test accuracy = 0.1649
+>>> epoch = 3 , loss = 1.098 , accuracy = 0.4186
+    >>> test accuracy = 0.6134
+>>> epoch = 4 , loss = 1.081 , accuracy = 0.4171
+    >>> test accuracy = 0.6134
+>>> epoch = 5 , loss = 1.086 , accuracy = 0.4343
+    >>> test accuracy = 0.6134
+>>> epoch = 6 , loss = 1.083 , accuracy = 0.4443
+    >>> test accuracy = 0.6134
+>>> epoch = 7 , loss = 1.084 , accuracy = 0.4414
+    >>> test accuracy = 0.6134
+>>> epoch = 8 , loss = 1.084 , accuracy = 0.4386
+    >>> test accuracy = 0.6134
+>>> epoch = 9 , loss = 1.073 , accuracy = 0.4443
+    >>> test accuracy = 0.6134
+>>> epoch = 10 , loss = 1.072 , accuracy = 0.45
+    >>> test accuracy = 0.6134
+>>> epoch = 11 , loss = 1.074 , accuracy = 0.4443
+    >>> test accuracy = 0.6134
+>>> epoch = 12 , loss = 1.077 , accuracy = 0.4429
+    >>> test accuracy = 0.6134
+>>> epoch = 13 , loss = 1.078 , accuracy = 0.4343
+    >>> test accuracy = 0.6134
+>>> epoch = 14 , loss = 1.08 , accuracy = 0.4457
+    >>> test accuracy = 0.6134
+>>> epoch = 15 , loss = 1.081 , accuracy = 0.4457
+    >>> test accuracy = 0.6134
+>>> epoch = 16 , loss = 1.07 , accuracy = 0.4471
+    >>> test accuracy = 0.6134
+>>> epoch = 17 , loss = 1.081 , accuracy = 0.4486
+    >>> test accuracy = 0.6134
+>>> epoch = 18 , loss = 1.075 , accuracy = 0.4414
+    >>> test accuracy = 0.6134
+>>> epoch = 19 , loss = 1.073 , accuracy = 0.4457
+    >>> test accuracy = 0.6134
+>>> epoch = 20 , loss = 1.077 , accuracy = 0.4414
+    >>> test accuracy = 0.6134
+>>> epoch = 21 , loss = 1.073 , accuracy = 0.4457
+    >>> test accuracy = 0.6134
+>>> epoch = 22 , loss = 1.079 , accuracy = 0.4471
+    >>> test accuracy = 0.6134
+>>> epoch = 23 , loss = 1.075 , accuracy = 0.45
+    >>> test accuracy = 0.6134
+>>> epoch = 24 , loss = 1.075 , accuracy = 0.4486
+    >>> test accuracy = 0.6134
+>>> epoch = 25 , loss = 1.066 , accuracy = 0.45
+    >>> test accuracy = 0.6134
+>>> epoch = 26 , loss = 1.067 , accuracy = 0.4457
+    >>> test accuracy = 0.6134
+>>> epoch = 27 , loss = 1.074 , accuracy = 0.4486
+    >>> test accuracy = 0.6134
+>>> epoch = 28 , loss = 1.066 , accuracy = 0.4457
+    >>> test accuracy = 0.6134
+>>> epoch = 29 , loss = 1.072 , accuracy = 0.4486
+    >>> test accuracy = 0.6134
+>>> epoch = 30 , loss = 1.07 , accuracy = 0.4471
+    >>> test accuracy = 0.6134
+>>>Test fault 0:
+[Accuracy]: 0.000000
+>>>Test fault 1:
+[Accuracy]: 0.000000
+>>>Test fault 2:
+[Accuracy]: 1.000000
+[Average Accuracy]: 0.613402
+
+Process finished with exit code 0
